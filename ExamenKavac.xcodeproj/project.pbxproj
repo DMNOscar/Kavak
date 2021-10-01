@@ -1,0 +1,640 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		706BBC3C27079865004E3EB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706BBC3B27079865004E3EB6 /* AppDelegate.swift */; };
+		706BBC3E27079865004E3EB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706BBC3D27079865004E3EB6 /* SceneDelegate.swift */; };
+		706BBC4027079865004E3EB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706BBC3F27079865004E3EB6 /* ViewController.swift */; };
+		706BBC4327079865004E3EB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706BBC4127079865004E3EB6 /* Main.storyboard */; };
+		706BBC4627079865004E3EB6 /* ExamenKavac.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 706BBC4427079865004E3EB6 /* ExamenKavac.xcdatamodeld */; };
+		706BBC4827079867004E3EB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 706BBC4727079867004E3EB6 /* Assets.xcassets */; };
+		706BBC4B27079867004E3EB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 706BBC4927079867004E3EB6 /* LaunchScreen.storyboard */; };
+		706BBC5627079868004E3EB6 /* ExamenKavacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706BBC5527079868004E3EB6 /* ExamenKavacTests.swift */; };
+		706BBC6027079868004E3EB6 /* ExamenKavacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706BBC5F27079868004E3EB6 /* ExamenKavacUITests.swift */; };
+		706BBC6227079868004E3EB6 /* ExamenKavacUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 706BBC6127079868004E3EB6 /* ExamenKavacUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		706BBC5227079868004E3EB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 706BBC3027079865004E3EB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 706BBC3727079865004E3EB6;
+			remoteInfo = ExamenKavac;
+		};
+		706BBC5C27079868004E3EB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 706BBC3027079865004E3EB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 706BBC3727079865004E3EB6;
+			remoteInfo = ExamenKavac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		706BBC3827079865004E3EB6 /* ExamenKavac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamenKavac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		706BBC3B27079865004E3EB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		706BBC3D27079865004E3EB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		706BBC3F27079865004E3EB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		706BBC4227079865004E3EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		706BBC4527079865004E3EB6 /* ExamenKavac.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExamenKavac.xcdatamodel; sourceTree = "<group>"; };
+		706BBC4727079867004E3EB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		706BBC4A27079867004E3EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		706BBC4C27079867004E3EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		706BBC5127079868004E3EB6 /* ExamenKavacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamenKavacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		706BBC5527079868004E3EB6 /* ExamenKavacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamenKavacTests.swift; sourceTree = "<group>"; };
+		706BBC5B27079868004E3EB6 /* ExamenKavacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamenKavacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		706BBC5F27079868004E3EB6 /* ExamenKavacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamenKavacUITests.swift; sourceTree = "<group>"; };
+		706BBC6127079868004E3EB6 /* ExamenKavacUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamenKavacUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		706BBC3527079865004E3EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706BBC4E27079868004E3EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706BBC5827079868004E3EB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		706BBC2F27079865004E3EB6 = {
+			isa = PBXGroup;
+			children = (
+				706BBC3A27079865004E3EB6 /* ExamenKavac */,
+				706BBC5427079868004E3EB6 /* ExamenKavacTests */,
+				706BBC5E27079868004E3EB6 /* ExamenKavacUITests */,
+				706BBC3927079865004E3EB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		706BBC3927079865004E3EB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				706BBC3827079865004E3EB6 /* ExamenKavac.app */,
+				706BBC5127079868004E3EB6 /* ExamenKavacTests.xctest */,
+				706BBC5B27079868004E3EB6 /* ExamenKavacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		706BBC3A27079865004E3EB6 /* ExamenKavac */ = {
+			isa = PBXGroup;
+			children = (
+				706BBC3B27079865004E3EB6 /* AppDelegate.swift */,
+				706BBC3D27079865004E3EB6 /* SceneDelegate.swift */,
+				706BBC3F27079865004E3EB6 /* ViewController.swift */,
+				706BBC4127079865004E3EB6 /* Main.storyboard */,
+				706BBC4727079867004E3EB6 /* Assets.xcassets */,
+				706BBC4927079867004E3EB6 /* LaunchScreen.storyboard */,
+				706BBC4C27079867004E3EB6 /* Info.plist */,
+				706BBC4427079865004E3EB6 /* ExamenKavac.xcdatamodeld */,
+			);
+			path = ExamenKavac;
+			sourceTree = "<group>";
+		};
+		706BBC5427079868004E3EB6 /* ExamenKavacTests */ = {
+			isa = PBXGroup;
+			children = (
+				706BBC5527079868004E3EB6 /* ExamenKavacTests.swift */,
+			);
+			path = ExamenKavacTests;
+			sourceTree = "<group>";
+		};
+		706BBC5E27079868004E3EB6 /* ExamenKavacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				706BBC5F27079868004E3EB6 /* ExamenKavacUITests.swift */,
+				706BBC6127079868004E3EB6 /* ExamenKavacUITestsLaunchTests.swift */,
+			);
+			path = ExamenKavacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		706BBC3727079865004E3EB6 /* ExamenKavac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706BBC6527079868004E3EB6 /* Build configuration list for PBXNativeTarget "ExamenKavac" */;
+			buildPhases = (
+				706BBC3427079865004E3EB6 /* Sources */,
+				706BBC3527079865004E3EB6 /* Frameworks */,
+				706BBC3627079865004E3EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExamenKavac;
+			productName = ExamenKavac;
+			productReference = 706BBC3827079865004E3EB6 /* ExamenKavac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		706BBC5027079868004E3EB6 /* ExamenKavacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706BBC6827079868004E3EB6 /* Build configuration list for PBXNativeTarget "ExamenKavacTests" */;
+			buildPhases = (
+				706BBC4D27079868004E3EB6 /* Sources */,
+				706BBC4E27079868004E3EB6 /* Frameworks */,
+				706BBC4F27079868004E3EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				706BBC5327079868004E3EB6 /* PBXTargetDependency */,
+			);
+			name = ExamenKavacTests;
+			productName = ExamenKavacTests;
+			productReference = 706BBC5127079868004E3EB6 /* ExamenKavacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		706BBC5A27079868004E3EB6 /* ExamenKavacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 706BBC6B27079868004E3EB6 /* Build configuration list for PBXNativeTarget "ExamenKavacUITests" */;
+			buildPhases = (
+				706BBC5727079868004E3EB6 /* Sources */,
+				706BBC5827079868004E3EB6 /* Frameworks */,
+				706BBC5927079868004E3EB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				706BBC5D27079868004E3EB6 /* PBXTargetDependency */,
+			);
+			name = ExamenKavacUITests;
+			productName = ExamenKavacUITests;
+			productReference = 706BBC5B27079868004E3EB6 /* ExamenKavacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		706BBC3027079865004E3EB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					706BBC3727079865004E3EB6 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					706BBC5027079868004E3EB6 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 706BBC3727079865004E3EB6;
+					};
+					706BBC5A27079868004E3EB6 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 706BBC3727079865004E3EB6;
+					};
+				};
+			};
+			buildConfigurationList = 706BBC3327079865004E3EB6 /* Build configuration list for PBXProject "ExamenKavac" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 706BBC2F27079865004E3EB6;
+			productRefGroup = 706BBC3927079865004E3EB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				706BBC3727079865004E3EB6 /* ExamenKavac */,
+				706BBC5027079868004E3EB6 /* ExamenKavacTests */,
+				706BBC5A27079868004E3EB6 /* ExamenKavacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		706BBC3627079865004E3EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706BBC4B27079867004E3EB6 /* LaunchScreen.storyboard in Resources */,
+				706BBC4827079867004E3EB6 /* Assets.xcassets in Resources */,
+				706BBC4327079865004E3EB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706BBC4F27079868004E3EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706BBC5927079868004E3EB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		706BBC3427079865004E3EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706BBC4627079865004E3EB6 /* ExamenKavac.xcdatamodeld in Sources */,
+				706BBC4027079865004E3EB6 /* ViewController.swift in Sources */,
+				706BBC3C27079865004E3EB6 /* AppDelegate.swift in Sources */,
+				706BBC3E27079865004E3EB6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706BBC4D27079868004E3EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706BBC5627079868004E3EB6 /* ExamenKavacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		706BBC5727079868004E3EB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				706BBC6027079868004E3EB6 /* ExamenKavacUITests.swift in Sources */,
+				706BBC6227079868004E3EB6 /* ExamenKavacUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		706BBC5327079868004E3EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 706BBC3727079865004E3EB6 /* ExamenKavac */;
+			targetProxy = 706BBC5227079868004E3EB6 /* PBXContainerItemProxy */;
+		};
+		706BBC5D27079868004E3EB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 706BBC3727079865004E3EB6 /* ExamenKavac */;
+			targetProxy = 706BBC5C27079868004E3EB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		706BBC4127079865004E3EB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				706BBC4227079865004E3EB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		706BBC4927079867004E3EB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				706BBC4A27079867004E3EB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		706BBC6327079868004E3EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		706BBC6427079868004E3EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		706BBC6627079868004E3EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExamenKavac/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavak.ExamenKavac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		706BBC6727079868004E3EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ExamenKavac/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavak.ExamenKavac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		706BBC6927079868004E3EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavak.ExamenKavacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExamenKavac.app/ExamenKavac";
+			};
+			name = Debug;
+		};
+		706BBC6A27079868004E3EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavak.ExamenKavacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExamenKavac.app/ExamenKavac";
+			};
+			name = Release;
+		};
+		706BBC6C27079868004E3EB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavak.ExamenKavacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExamenKavac;
+			};
+			name = Debug;
+		};
+		706BBC6D27079868004E3EB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kavak.ExamenKavacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ExamenKavac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		706BBC3327079865004E3EB6 /* Build configuration list for PBXProject "ExamenKavac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706BBC6327079868004E3EB6 /* Debug */,
+				706BBC6427079868004E3EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706BBC6527079868004E3EB6 /* Build configuration list for PBXNativeTarget "ExamenKavac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706BBC6627079868004E3EB6 /* Debug */,
+				706BBC6727079868004E3EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706BBC6827079868004E3EB6 /* Build configuration list for PBXNativeTarget "ExamenKavacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706BBC6927079868004E3EB6 /* Debug */,
+				706BBC6A27079868004E3EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		706BBC6B27079868004E3EB6 /* Build configuration list for PBXNativeTarget "ExamenKavacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				706BBC6C27079868004E3EB6 /* Debug */,
+				706BBC6D27079868004E3EB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		706BBC4427079865004E3EB6 /* ExamenKavac.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				706BBC4527079865004E3EB6 /* ExamenKavac.xcdatamodel */,
+			);
+			currentVersion = 706BBC4527079865004E3EB6 /* ExamenKavac.xcdatamodel */;
+			path = ExamenKavac.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 706BBC3027079865004E3EB6 /* Project object */;
+}
